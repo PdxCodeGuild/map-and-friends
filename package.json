@@ -1,0 +1,16 @@
+{
+  "name": "map-and-friends",
+  "version": "1.0.0",
+  "description": "Test driven workshop to learn about commonly used higher-order functions in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "riteway -r esm test/**/*-test.js | tap-nirvana"
+  },
+  "author": "Evan Hackett",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "riteway": "^6.1.2",
+    "tap-nirvana": "^1.1.0"
+  }
+}
