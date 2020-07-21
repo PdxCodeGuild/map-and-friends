@@ -4,6 +4,8 @@ This workshop will guide you towards understanding how to use the map, filter, a
 
 This is a test-driven workshop, meaning you can run tests to verify if your solution is correct!
 
+Note: you will need `node` and `npm` installed in order to run the tests.
+
 To setup the project, clone this repo locally, and then in the root directory of the project, run:
 
 ```
