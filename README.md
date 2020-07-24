@@ -31,3 +31,5 @@ P.S. Let me know if there are typos or misleading comments, etc. Thanks!
 ## Prerequisites
 
 You will definitely want to know basic javascript syntax, and especially arrow functions. Although you aren't required to write your solutions using arrow functions, you will have a hard time reading the provided code if you don't understand arrow functions.
+
+If you don't have much experience with higher-order function in general, I highly recommend reading [chapter 5 of "Eloquent Javascript"](https://eloquentjavascript.net/05_higher_order.html).
