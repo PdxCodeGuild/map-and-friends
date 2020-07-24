@@ -118,7 +118,7 @@ const upperCaseNames = undefined
 // this function will wrap all elements with div tags
 const wrapInDiv = xs => xs.map(x => `<div>${x}</div>`)
 
-const divs = wrapInDiv(upperCaseNames(people)) // What will this output?
+// What would this output?  wrapInDiv(upperCaseNames(people))
 
 
 // Exercise: userLinks
