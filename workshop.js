@@ -257,7 +257,7 @@ const sum2 = xs => xs.reduce((total, x) => total + x)
 // how many people took the advanced course?
 const numberOfAdvancedGrads = 
   applicants
-    .reduce((accum, applicant) => applicant.advancedJSCourse ? accum + 1 : accum)
+    .reduce((accum, applicant) => applicant.advancedJSCourse ? accum + 1 : accum, 0)
 
 // we use the ternary operator (predicate ? resultIfTrue : resultIfFalse) to
 // add 1 to the accumulator if the applicant took the course. If the applicant
